@@ -1,0 +1,140 @@
+.container {
+  text-align: center;
+  padding: 40px;
+  max-width: 950px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  padding-bottom: 0;
+}
+
+.heading {
+  font-family: "Cambria", Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 2.25rem; /* Larger heading size */
+  margin-bottom: 20px;
+  color: black; /* Darker color for better visibility */
+  text-align: justify;
+  line-height: 1.2;
+}
+
+.text {
+  font-size: 1.25rem; /* Larger paragraph size */
+  margin-bottom: 10px;
+  color: black; /* Slightly lighter color */
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+  padding: 0px;
+  word-spacing: 1.5px;
+  line-height: 1.8;
+  margin: 0;
+  text-align: justify;
+  color: #2e2e2e;
+}
+
+.sliderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%; /* Ensure slider container takes full width */
+  height: 600px; /* Increased height for the slider */
+  overflow: visible; /* Allow buttons to be visible */
+  position: relative; /* Positioning for absolute buttons */
+  background: transparent; /* Ensures background is transparent */
+}
+
+.image {
+  width: 100%; /* Make image responsive */
+  height: auto;
+  max-height: 500px; /* Limit max height of image to match slider size */
+  border-radius: 10px;
+  object-fit: cover; /* Ensures the image covers the area nicely */
+  margin-bottom: 10px;
+}
+
+.navButton {
+  background-color: #b4afae; /* Change button color to a vibrant orange */
+  color: black; /* Change text color to white for contrast */
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners for buttons */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  position: absolute; /* Position buttons absolute for better visibility */
+  top: 50%; /* Center buttons vertically */
+  transform: translateY(-50%); /* Centering adjustment */
+}
+
+.navButton:hover {
+  background-color: #999999; /* Change to a darker background color on hover */
+}
+/* Specific positions for buttons (moved outside the slider) */
+.navButton:first-child {
+  left: -50px; /* Position for left button, slightly outside */
+}
+
+.navButton:last-child {
+  right: -50px; /* Position for right button, slightly outside */
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .container {
+    padding: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .sliderContainer {
+    /* Reduce height for mobile to keep it proportionate */
+    margin: 0;
+    padding: 0px;
+    height: 300px;
+    padding-top: 20px;
+  }
+
+  .image {
+    max-height: 300px; /* Reduce max height of image for mobile */
+  }
+
+  .heading {
+    font-size: 1.5rem; /* Smaller heading size on mobile */
+    text-align: justify;
+    line-height: 1.2;
+  }
+
+  .text {
+    font-size: 1rem; /* Smaller paragraph size on mobile */
+    margin-bottom: 5px; /* Closer spacing on mobile */
+  }
+
+  .navButton {
+    font-size: 18px; /* Slightly smaller on mobile */
+  }
+  .navButton {
+    font-size: 18px; /* Slightly smaller on mobile */
+    position: absolute;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+  }
+
+  /* Move the right button to the top of the image */
+  .navButton:last-child {
+    top: 20px; /* Adjust top position for the right button */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    width: 50px;
+  }
+
+  /* Move the left button to the bottom of the image */
+  .navButton:first-child {
+    bottom: 10px; /* Adjust bottom position for the left button */
+    top: auto; /* Remove the top position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    width: 50px;
+  }
+}

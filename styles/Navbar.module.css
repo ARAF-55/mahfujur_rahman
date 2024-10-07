@@ -1,0 +1,121 @@
+/* Navbar.module.css */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: #060606;
+  padding: 15px;
+}
+
+.navContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0 auto;
+  padding: 0 40px;
+  background-color: #060606;
+}
+
+.logo h1 {
+  font-size: 20px;
+  color: whitesmoke;
+  background-color: #060606;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  transition: all 0.3s ease-in-out; /* Added transition */
+  background-color: #060606;
+}
+
+.navLinks li {
+  font-size: 18px;
+  transition: color 0.5s ease; /* Smooth color transition */
+  background-color: #060606;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease-in-out; /* Added transition */
+  background-color: #060606;
+}
+
+.navLinks li:hover a {
+  color: #07db24 !important; /* Hover color */
+  background-color: #060606;
+}
+
+.active a {
+  color: #07db24 !important; /* Active link stays highlighted */
+  background-color: #060606;
+}
+
+/* Responsive Navbar for Mobile View */
+.menuToggle {
+  display: none;
+  font-size: 18px; /* Smaller font size */
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%; /* Circular button */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Slight shadow for a stylish effect */
+}
+
+.menuToggle:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.2
+  ); /* Slight background change on hover */
+  transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+.menuToggle:focus {
+  outline: none; /* Remove default focus outline */
+}
+
+/* Hide the links in mobile view */
+.navLinks {
+  transition: all 0.3s ease;
+}
+
+.navOpen {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px; /* Adjust depending on your navbar height */
+  right: 0;
+  width: 100%;
+  background-color: #060606;
+  padding: 20px;
+}
+
+@media (max-width: 818px) {
+  .navLinks {
+    display: none;
+  }
+
+  .menuToggle {
+    display: block;
+  }
+
+  .navOpen {
+    display: block;
+  }
+
+  .navLinks li {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}
