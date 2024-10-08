@@ -38,9 +38,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 50px;
   width: 100%; /* Ensure slider container takes full width */
-  height: 600px; /* Increased height for the slider */
+  height: 100%; /* Increased height for the slider */
   overflow: visible; /* Allow buttons to be visible */
   position: relative; /* Positioning for absolute buttons */
   background: transparent; /* Ensures background is transparent */
@@ -82,7 +82,7 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .container {
     padding: 10px;
     margin-right: 30px;
@@ -132,6 +132,24 @@
   /* Move the left button to the bottom of the image */
   .navButton:first-child {
     bottom: 10px; /* Adjust bottom position for the left button */
+    top: auto; /* Remove the top position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    width: 50px;
+  }
+}
+
+@media (max-width: 450px) {
+  .navButton:last-child {
+    top: 45px; /* Adjust top position for the right button */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    width: 50px;
+  }
+
+  /* Move the left button to the bottom of the image */
+  .navButton:first-child {
+    bottom: 35px; /* Adjust bottom position for the left button */
     top: auto; /* Remove the top position */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%);
