@@ -7,3 +7,10 @@
   padding: 30px;
   font-size: smaller;
 }
+
+@media all and (max-width: 1000px) {
+  .footer {
+    font-weight: 100;
+    font-size: x-small;
+  }
+}
