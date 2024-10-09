@@ -55,6 +55,13 @@
   margin-bottom: 10px;
 }
 
+.googleSlides {
+  width: 100%; /* Ensure the iframe takes the full width */
+  height: 600px; /* Height to match your image slider */
+  border: none; /* Remove any borders */
+  border-radius: 10px;
+}
+
 .navButton {
   background-color: #b4afae; /* Change button color to a vibrant orange */
   color: black; /* Change text color to white for contrast */
@@ -82,7 +89,7 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 700px) {
+@media (max-width: 1000px) {
   .container {
     padding: 10px;
     margin-right: 30px;
@@ -92,12 +99,19 @@
     /* Reduce height for mobile to keep it proportionate */
     margin: 0;
     padding: 0px;
-    height: 300px;
+    height: 400px;
     padding-top: 20px;
   }
 
   .image {
     max-height: 300px; /* Reduce max height of image for mobile */
+  }
+
+  .googleSlides {
+    width: 100%; /* Ensure the iframe takes the full width */
+    height: 400px; /* Height to match your image slider */
+    border: none; /* Remove any borders */
+    border-radius: 10px;
   }
 
   .heading {
@@ -139,7 +153,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 770px) {
   .navButton:last-child {
     top: 45px; /* Adjust top position for the right button */
     left: 50%; /* Center horizontally */
@@ -154,5 +168,88 @@
     left: 50%; /* Center horizontally */
     transform: translateX(-50%);
     width: 50px;
+  }
+
+  .sliderContainer {
+    /* Reduce height for mobile to keep it proportionate */
+    margin: 0;
+    padding: 0px;
+    height: 350px;
+    padding-top: 20px;
+  }
+
+  .googleSlides {
+    width: 100%; /* Ensure the iframe takes the full width */
+    height: 350px; /* Height to match your image slider */
+    border: none; /* Remove any borders */
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sliderContainer {
+    /* Reduce height for mobile to keep it proportionate */
+    margin: 0;
+    padding: 0px;
+    height: 300px;
+    padding-top: 20px;
+  }
+
+  .googleSlides {
+    width: 100%; /* Ensure the iframe takes the full width */
+    height: 300px; /* Height to match your image slider */
+    border: none; /* Remove any borders */
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sliderContainer {
+    /* Reduce height for mobile to keep it proportionate */
+    margin: 0;
+    padding: 0px;
+    height: 270px;
+    padding-top: 20px;
+  }
+
+  .googleSlides {
+    width: 100%; /* Ensure the iframe takes the full width */
+    height: 270px; /* Height to match your image slider */
+    border: none; /* Remove any borders */
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 460px) {
+  .sliderContainer {
+    /* Reduce height for mobile to keep it proportionate */
+    margin: 0;
+    padding: 0px;
+    height: 250px;
+    padding-top: 20px;
+  }
+
+  .googleSlides {
+    width: 100%; /* Ensure the iframe takes the full width */
+    height: 270px; /* Height to match your image slider */
+    border: none; /* Remove any borders */
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .sliderContainer {
+    /* Reduce height for mobile to keep it proportionate */
+    margin: 0;
+    padding: 0px;
+    height: 240px;
+    padding-top: 20px;
+  }
+
+  .googleSlides {
+    width: 100%; /* Ensure the iframe takes the full width */
+    height: 240px; /* Height to match your image slider */
+    border: none; /* Remove any borders */
+    border-radius: 10px;
   }
 }
