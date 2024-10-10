@@ -1,14 +1,15 @@
 'use client';
-
+import Link from 'next/link';
 import PropTypes from 'prop-types';
 import styles from '../styles/InfoSection.module.css'; // Import the CSS module
 
-const InfoSection = ({ heading, text, googleSlidesUrl }) => {
+const InfoSection = ({ heading, text, codelink, googleSlidesUrl }) => {
+
 
   return (
     <div className={styles.container}>
       <h2 className={styles.heading}>{heading}</h2>
-      <p className={styles.text}>{text}</p>
+      <p className={styles.text}>{text} <Link href={codelink} target="_blank">GitHub.</Link></p>
 
       <div className={styles.sliderContainer}>
         

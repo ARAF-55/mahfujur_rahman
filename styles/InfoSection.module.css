@@ -49,7 +49,7 @@
 .image {
   width: 100%; /* Make image responsive */
   height: auto;
-  max-height: 500px; /* Limit max height of image to match slider size */
+  max-height: 700px; /* Limit max height of image to match slider size */
   border-radius: 10px;
   object-fit: cover; /* Ensures the image covers the area nicely */
   margin-bottom: 10px;
@@ -57,7 +57,7 @@
 
 .googleSlides {
   width: 100%; /* Ensure the iframe takes the full width */
-  height: 600px; /* Height to match your image slider */
+  height: 550px; /* Height to match your image slider */
   border: none; /* Remove any borders */
   border-radius: 10px;
 }
