@@ -57,7 +57,7 @@
 
 .googleSlides {
   width: 100%; /* Ensure the iframe takes the full width */
-  height: 550px; /* Height to match your image slider */
+  height: 500px; /* Height to match your image slider */
   border: none; /* Remove any borders */
   border-radius: 10px;
 }
