@@ -14,7 +14,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.imageSection}>
         <img className={styles.image} src="./dp.jpg" alt="Mahfujur Rahman" />
-          <Link href="https://drive.google.com/file/d/1wnOjYTU-Jw9S8QQQwHxO2UTKhmrbLBUa/view?usp=sharing" className={styles.cv} target="_blank" rel="noopener noreferrer">
+          <Link href="https://drive.google.com/file/d/1VXIpcamGWdIAv2bg0O-zTvh88zfyzVmD/view?usp=drive_link" className={styles.cv} target="_blank" rel="noopener noreferrer">
             CV
           </Link>
         </div>
