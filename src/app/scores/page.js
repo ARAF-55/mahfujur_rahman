@@ -6,7 +6,7 @@ export default function page() {
     <div className={styles.container}>
         <div className={styles.components}>
             
-        <img className={styles.edu_image}src="./Scores/gre.png" alt="Mahfujur Rahman" />
+        <img className={styles.edu_image}src="./Scores/gre_score.png" alt="Mahfujur Rahman" />
             
             <div>
                 <h1 className={styles.robotoMonoKasa}>GRE Score</h1> 
