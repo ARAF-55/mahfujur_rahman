@@ -187,6 +187,9 @@
 }
 
 @media (max-width: 600px) {
+  .heading {
+    text-align: left;
+  }
   .sliderContainer {
     /* Reduce height for mobile to keep it proportionate */
     margin: 0;
