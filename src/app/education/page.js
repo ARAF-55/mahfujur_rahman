@@ -15,7 +15,7 @@ export default function page() {
                 <h1 className={styles.robotoMonoKasa}>Chittagong University of Engineering and Technology (CUET), Chittagong, Bangladesh.</h1>
                 <div className={styles.portion}>
                 <p className={styles.monsTrate}>Feb 2017 - Sep 2022</p>
-                <p className={styles.monsTrate}>CGPA: 3.28/4.00 (3.53 on avg. in last 60 credit hours)</p>
+                <p className={styles.monsTrate}>CGPA (US eval): 3.29/4.00 (3.63 in last 60 credits)</p>
                 <p className={styles.monsTrate}>Merit Position: 37th out of 131</p>
                 </div>
             </div>

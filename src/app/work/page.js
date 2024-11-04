@@ -11,7 +11,7 @@ export default function page() {
                 <h1 className={styles.robotoMonoKasa}>Frontend Engineer</h1> 
                 <h1 className={styles.robotoMonoKasa}>Softexpoit Pvt. Limited</h1>
                 <div className={styles.portion}>
-                <p className={styles.monsTrate}>Feb 2023 - May 2024</p>
+                <p className={styles.monsTrate}>Feb 2023 - April 2024</p>
                 <p className={styles.monsTrate}>
                 - Developed the frontend of the Fleet Management Module with
                 React.js and Redux. Integrated with Firebase DB for database.</p>
@@ -31,8 +31,27 @@ export default function page() {
                 <h1 className={styles.robotoMonoKasa}>Internship in Machine Learning</h1> 
                 <h1 className={styles.robotoMonoKasa}>Teletalk Bangladesh Limited, Dhaka</h1>
                 <div className={styles.portion}>
-                <p className={styles.monsTrate}>Nov 2022 - Dec 2022</p>
+                <p className={styles.monsTrate}>Feb 2022 - March 2022</p>
                 <p className={styles.monsTrate}>I worked at Teletalk Bangladesh as a Computer Science intern. It was part of the industrial attachment program. I was assigned in a project that developed a system for detecting and verifying the quality and orientation of the images that gets uploaded to the server of the company. I used several deep learning procedures in the process. After testing out with several models with the dataset, we settled on DenseNet 201, with an accuracy rate of 93%.</p>
+                </div>
+            </div>
+        </div>
+
+        <div className={styles.components}>
+            
+            <img className={styles.edu_image}src="./Works/13.jpg" alt="Mahfujur Rahman" />
+            
+            <div>
+                <h1 className={styles.robotoMonoKasa}>System Analysis and Design, Sessional Attachment</h1> 
+                <h1 className={styles.robotoMonoKasa}>AB Bank Limited, Noapara, Chittagong</h1>
+                <div className={styles.portion}>
+                <p className={styles.monsTrate}>Jan 2020 - Feb 2020</p>
+                <p className={styles.monsTrate}>
+                - This task was a part of the sessional work of SAD course.</p>
+                <p className={styles.monsTrate}>
+                - We studied the system of the bank and prepared the Process Models,
+                Object Oriented Analysis and Feasibility Analysis
+                </p>
                 </div>
             </div>
         </div>
