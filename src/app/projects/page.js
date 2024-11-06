@@ -44,17 +44,17 @@ export default function page() {
         />
 
         <InfoSection
-            heading={Headline_1} 
-            text={Text_1}
-            codelink= {Code_1} 
-            googleSlidesUrl={slide_1}
-        />
-
-        <InfoSection
             heading={Headline_4} 
             text={Text_4}
             codelink= {Code_4} 
             googleSlidesUrl={slide_4}
+        />
+
+        <InfoSection
+            heading={Headline_1} 
+            text={Text_1}
+            codelink= {Code_1} 
+            googleSlidesUrl={slide_1}
         />
 
         <InfoSection

@@ -45,7 +45,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li className={isActive('/research')}>
-            <Link href="/research" legacyBehavior>
+            <Link href="/projects" legacyBehavior>
               <a onClick={closeMenu}>Project Works & Skills</a>
             </Link>
           </li>
