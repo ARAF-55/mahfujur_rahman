@@ -2,12 +2,24 @@
 
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from '../styles/Navbar.module.css';
 
 const Navbar = () => {
   const router = useRouter();
+
+  const [isScreenSmall, setIsScreenSmall] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(max-width: 818px)');
+    const handleResize = () => setIsScreenSmall(mediaQuery.matches);
+
+    handleResize(); // Set the initial state based on current screen size
+    mediaQuery.addEventListener('change', handleResize); // Add listener for screen width changes
+
+    return () => mediaQuery.removeEventListener('change', handleResize); // Cleanup listener on unmount
+  }, []);
 
   // Check if a link is active (highlight the active link)
   const isActive = (path) => {
@@ -33,7 +45,7 @@ const Navbar = () => {
         <button className={styles.menuToggle} onClick={toggleMenu}>
           ☰
         </button>
-        <ul className={`${styles.navLinks} ${menuOpen ? styles.navOpen : ''}`}>
+        <ul className={`${styles.navLinks} ${menuOpen && isScreenSmall ? styles.navOpen : ''}`}>
           <li className={isActive('/')}>
             <Link href="/" legacyBehavior>
               <a onClick={closeMenu}>Home</a>
