@@ -21,19 +21,6 @@ export default function page() {
             </div>
         </div>
 
-        <div className={styles.components}>
-           
-                <img className={styles.edu_image} src="./Education/4.jpg" alt="Mahfujur Rahman" />
-            
-            <div>
-                <h1 className={styles.robotoMonoKasa}>Master of Science (M.Sc.) in Computer Science and Engineering,</h1>
-                <h1 className={styles.robotoMonoKasa}>Khulna University of Engineering and Technology (KUET), Khulna, Bangladesh</h1>
-                <div className={styles.portion}>
-                <p className={styles.monsTrate}>Sep 2024 - present</p>
-                <p className={styles.monsTrate}>Thesis area: Natural Language Processing</p>
-                </div>
-            </div>
-        </div>
 
         <div className={styles.components}>
             

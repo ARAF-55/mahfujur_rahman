@@ -11,7 +11,7 @@ export default function page() {
                 <h1 className={styles.robotoMonoKasa}>Frontend Engineer</h1> 
                 <h1 className={styles.robotoMonoKasa}>Softexpoit Pvt. Limited</h1>
                 <div className={styles.portion}>
-                <p className={styles.monsTrate}>Feb 2023 - April 2024</p>
+                <p className={styles.monsTrate}>Feb 2023 - Present</p>
                 <p className={styles.monsTrate}>
                 - Developed the frontend of the Fleet Management Module with
                 React.js and Redux. Integrated with Firebase DB for database.</p>
