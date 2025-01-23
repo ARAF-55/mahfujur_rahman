@@ -30,12 +30,15 @@
   justify-content: center;
   padding: 30px;
   font-family: "Roboto", sans-serif;
-  font-weight: 450;
+  font-weight: 200;
   font-style: normal;
-  font-size: 20px;
+  font-size: 17px;
   padding: 10px;
-  word-spacing: 4.7px;
   line-height: 2;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 .descriptionSection {
@@ -102,13 +105,16 @@
     flex-direction: row;
     justify-content: center;
     padding: 30px;
-    font-family: "Roboto", system-ui;
-    font-weight: 450;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
     font-style: normal;
-    font-size: 20px;
+    font-size: 17px;
     padding: 10px;
-    word-spacing: 4.7px;
     line-height: 2;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding: 0;
+    text-decoration: none;
   }
 
   .descriptionSection {
