@@ -61,16 +61,17 @@ const Navbar = () => {
               <a onClick={closeMenu}>Project Works & Research</a>
             </Link>
           </li>
-          <li className={isActive('/work')}>
-            <Link href="/work" legacyBehavior>
-              <a onClick={closeMenu}>Internships and Works</a>
-            </Link>
-          </li>
           <li className={isActive('/scores')}>
             <Link href="/scores" legacyBehavior>
               <a onClick={closeMenu}>Test Scores & Certificates</a>
             </Link>
           </li>
+          <li className={isActive('/work')}>
+            <Link href="/work" legacyBehavior>
+              <a onClick={closeMenu}>Internships and Works</a>
+            </Link>
+          </li>
+          
         </ul>
       </div>
     </nav>
