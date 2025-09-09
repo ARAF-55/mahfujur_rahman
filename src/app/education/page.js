@@ -5,6 +5,25 @@ export default function page() {
   return (
     
       <div className={styles.container}>
+
+
+
+
+
+        <div className={styles.components}>
+            
+            <img className={styles.edu_image}src="./Education/6.jpeg" alt="Mahfujur Rahman" />
+            
+            <div>
+                <h1 className={styles.robotoMonoKasa}>Doctor of Philosophy (Ph.D.) in Computer Science - Information Management concentration</h1> 
+                <h1 className={styles.robotoMonoKasa}>Texas State University, San Marcos, Texas, United States</h1>
+                <div className={styles.portion}>
+                <p className={styles.monsTrate}>August 2025 - Present</p>
+                <p className={styles.monsTrate}>Research focus: Augmented and Virtual Reality</p>
+                <p className={styles.monsTrate}>Supervisor: Dr. Isayas Berhe Adhanom</p>
+                </div>
+            </div>
+        </div>
         
         <div className={styles.components}>
             

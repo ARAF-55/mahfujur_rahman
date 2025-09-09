@@ -3,15 +3,32 @@ import styles from '../../../styles/Work.module.css'
 export default function page() {
   return (
     <div className={styles.container}>
+
+        <div className={styles.components}>
+            
+            <img className={styles.edu_image}src="./Works/14.jpeg" alt="Mahfujur Rahman" />
+            
+            <div>
+                <h1 className={styles.robotoMonoKasa}>Doctoral Instructional Assistant (DIA)</h1> 
+                <h1 className={styles.robotoMonoKasa}>Texas State University, San Marcos, Texas</h1>
+                <div className={styles.portion}>
+                <p className={styles.monsTrate}>August 2025 - Present</p>
+                <p className={styles.monsTrate}>Currently assigned to the CS-4388/5388 (Advanced Computer Graphics) course</p>
+                <p className={styles.monsTrate}>Helping students with day to day coding works. Implementing many projects using the core graphics algorithms. Have worked on the Gophergfx module</p>
+                </div>
+            </div>
+        </div>
+
+
         <div className={styles.components}>
             
             <img className={styles.edu_image}src="./Works/11.jpeg" alt="Mahfujur Rahman" />
             
             <div>
-                <h1 className={styles.robotoMonoKasa}>Frontend Engineer</h1> 
+                <h1 className={styles.robotoMonoKasa}>Frontend Engineer - (Part time - freelance based, Remote)</h1> 
                 <h1 className={styles.robotoMonoKasa}>Softexpoit Pvt. Limited</h1>
                 <div className={styles.portion}>
-                <p className={styles.monsTrate}>Feb 2023 - Present</p>
+                <p className={styles.monsTrate}>Feb 2023 - November 2024</p>
                 <p className={styles.monsTrate}>
                 - Developed the frontend of the Fleet Management Module with
                 React.js and Redux. Integrated with Firebase DB for database.</p>

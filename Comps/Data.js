@@ -76,10 +76,15 @@ const Code_8 = "https://github.com/ARAF-55/Algorithm-and-Data-Structures"
 const slide_8 = "https://docs.google.com/presentation/d/e/2PACX-1vTS_t75OtZGfmCkHLgF9p8FS4fXyso6ci79UQBT4sbMQ0It3wDCz245hBYhTTTX021b01VPhJGv-_40/embed?start=false&loop=false&delayms=3000"
 
 
+
+const Headline_9 = "Human Object Interaction Detection with Positional Relation Features and Adjacency based Feature Refinements"
+const Text_9 = "This was my undergraduate thesis work. It focused on the HOI Detection topic. The HOI detection is a well reknowned area in the Computer Vision domain. It is the task of detecting and recognizing interactions between humans and objects in an image. The problem is a bit tricky because it includes multiple scenarios such as, varying number of human-object interactions in an image, a single human interacting with multiple objects, multiple humans interacting with one object etc. I conducted my experiment on the popular V-COCO (Microsoft Verbs in COCO dataset) dataset. The code for this research project can be found here: "
+const Code_9 = "https://github.com/ARAF-55/Human_Object_Interaction_Detection"
+const slide_9 = "https://drive.google.com/file/d/1f8VUOFPpPOrBFnTJIwEV3GRn0GXehPgS/preview"
+
+
 export {
-    Code_1, Code_2, Code_3, Code_4, Code_5, Code_6, Code_7, Code_8,
-    Headline_1, Headline_2, Headline_3, Headline_4, Headline_5, Headline_6, Headline_7, Headline_8,
-    Text_1, Text_2, Text_3, Text_4, Text_5, Text_6, Text_7, Text_8,
-    slide_1, slide_2, slide_3, slide_4, slide_5, slide_6, slide_7, slide_8
+    Code_1, Code_2, Code_3, Code_4, Code_5, Code_6, Code_7, Code_8, Code_9,
+    Headline_1, Headline_2, Headline_3, Headline_4, Headline_5, Headline_6, Headline_7, Headline_8, Headline_9, slide_1, slide_2, slide_3, slide_4, slide_5, slide_6, slide_7, slide_8, slide_9, Text_1, Text_2, Text_3, Text_4, Text_5, Text_6, Text_7, Text_8, Text_9
 }
 

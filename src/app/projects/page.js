@@ -2,21 +2,17 @@ import {
     Code_1, Code_2,
     Code_3, Code_4,
     Code_5, Code_6,
-    Code_7, Code_8,
-
+    Code_7, Code_8, Code_9,
     Headline_1, Headline_2,
     Headline_3, Headline_4,
     Headline_5, Headline_6,
-    Headline_7, Headline_8,
-
+    Headline_7, Headline_8, Headline_9,
     Text_1, Text_2, Text_3,
     Text_4, Text_5, Text_6,
-    Text_7, Text_8,
-
-
+    Text_7, Text_8, Text_9,
     slide_1, slide_2, slide_3,
     slide_4, slide_5, slide_6,
-    slide_7, slide_8
+    slide_7, slide_8, slide_9
 } from "../../../Comps/Data";
 
 
@@ -72,6 +68,13 @@ export default function page() {
         />
 
         <InfoSection
+            heading={Headline_9} 
+            text={Text_9}
+            codelink= {Code_9} 
+            googleSlidesUrl={slide_9}
+        />
+
+        <InfoSection
             heading={Headline_7} 
             text={Text_7}
             codelink= {Code_7} 
@@ -84,6 +87,20 @@ export default function page() {
             codelink= {Code_8} 
             googleSlidesUrl={slide_8}
         />
+
+        {
+            /*
+
+            <InfoSection
+            heading={Headline_9} 
+            text={Text_9}
+            codelink= {Code_9} 
+            googleSlidesUrl={slide_9}
+        />
+
+            */
+        }
+
         
     </div>
   )
