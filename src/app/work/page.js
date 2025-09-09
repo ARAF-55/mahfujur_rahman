@@ -13,8 +13,8 @@ export default function page() {
                 <h1 className={styles.robotoMonoKasa}>Texas State University, San Marcos, Texas</h1>
                 <div className={styles.portion}>
                 <p className={styles.monsTrate}>August 2025 - Present</p>
-                <p className={styles.monsTrate}>Currently assigned to the CS-4388/5388 (Advanced Computer Graphics) course</p>
-                <p className={styles.monsTrate}>Helping students with day to day coding works. Implementing many projects using the core graphics algorithms. Have worked on the Gophergfx module</p>
+                <p className={styles.monsTrate}>Courses Assisted: CS-4388/5388 - Advanced Computer Graphics (Fall - 2025)</p>
+                <p className={styles.monsTrate}>- Helping students with day to day coding works. Implementing many projects using the core graphics algorithms. Have worked on the Gophergfx module.</p>
                 </div>
             </div>
         </div>
